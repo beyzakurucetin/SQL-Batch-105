@@ -5,13 +5,14 @@ Create dataBase beyza;
 --DDL - DATA DEFINITIOIN LANG.
 --CREATE - TABLO OLUŞTURMA
 
-create table ogrenciler
+create table ogrenciler5
 (
-ogrenci_no char(7),
-isim varchar (20),
+ogrenci_no char(7), --uzunluğunu bildiğimiz stringler için char kullanılır
+isim varchar (20), --uzunluğunu bilmediğimiz stringler için varchar kullanılır
 soyisim varchar(25),
 not_ort real, --ondalıklı sayılar için kullanılır
 kayit_tarihi date);
+
 
 
 --VAROLAN TABLODAN YENİ BİR TABLO OLUŞTURMAK
